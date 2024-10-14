@@ -1,0 +1,113 @@
+body{
+    background-color: rgba(103, 103, 228, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clouds{
+    background-image: url("clouds.png");
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    height: 270px;
+    width: 400px;
+}
+.page-heading{
+    color: rgb(16, 16, 88);
+    font-size: 40px;
+}
+.main-box{
+    height: 80vh;
+    width: 70vw;
+    background-color: rgba(4, 4, 63, 0.9);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.firstBox{
+    height: 80vh;
+    width: 30vw;
+    background-image: url("download .jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-radius: 20px;
+}
+.SecondBox{
+    height: 80vh;
+    width: 36vw;
+}
+.dayDate{
+    color: rgb(3, 34, 65);
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.searchDiv{
+    height: 15vh;
+    width: 36vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#searchBar{
+    height: 30px;
+    width: 250px;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#searchBar:hover{
+    border-width: 2px;
+    border-color: black;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(11, 35, 112);
+}
+.btn:hover{
+    border-width: 2px;
+    border-color: rgb(11, 35, 112) ;
+}
+#name,#temp,#humidity,#wind{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+.weeks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+.boxes{
+    height: 150px;
+    width: 100px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    color: white;
+}
